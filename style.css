@@ -10,15 +10,68 @@ h3{
     color:orange;
     letter-spacing : 5px;
 }
+table, th, td{
+  height:500px;
+  width:1000px;  
+  border: 2px;
+  border-style:inset;
+  border-color:rgba(54, 57, 58, 0.118);
+  border-collapse: collapse;
+}
+th{  
+  background-color: cadetblue;
+  height:80px;
+  text-align: center;
+  text-shadow: 0.5px;
+  font-size:larger;
+  color:rgb(24, 23, 22);
+  font-weight:bolder;
+  font-family: 'Courier New', Courier, monospace;
+}
+td{
+  height:fit-content;
+  text-align: center;
+  font-size: large;
+  color:black;
+}
+tr{
+  background-color:lightblue;
+  transition: 0.3s;
+}
+.logoLinks{
+  height:20px;  
+} 
+
+.eas:hover, .med:hover, .hard:hover{
+  transform:scale(1.2);
+}
+.eas:hover{
+  background-color: rgb(203, 227, 203);
+}
+.med:hover{
+  background-color:rgb(179, 179, 151);
+}
+.hard:hover{
+  background-color: rgb(188, 164, 160);
+}
 .sidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: green;
     display: block;
-    transition: 0.5;
+    transition: 0.5s;
   }
 
   .sidebar a:hover{
     color: orange;
+    transform:scale(1.2);
+  }
+
+  a{
+    color: darkgreen;
+  }
+
+  a:hover{
+    color:orange;
   }
